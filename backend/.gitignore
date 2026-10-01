@@ -1,0 +1,19 @@
+# dependency directories (Folder jumbo library tidak boleh ikut)
+node_modules/
+dist
+
+# local environment files (Kredensial database rahasia tim wajib dikunci)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# user uploads (File CV fisik hasil testing lokal tidak boleh mengotori repo)
+uploads/cvs/*
+!uploads/cvs/.gitkeep
